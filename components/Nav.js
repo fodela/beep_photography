@@ -1,22 +1,19 @@
 import Link from "next/link";
+import NavLink from "./NavLink";
 
 const Nav = () => {
 	return (
-		<nav className="flex flex-row justify-between items-center">
-			<div>LOGO</div>
+		<nav>
 			<ul className="flex flex-row ">
-				<li>
-					<Link href="/packages">Packages</Link>
-				</li>
-				<li>
-					<Link href="/about">About</Link>
-				</li>
-				<li>
-					<Link href="/blog">Blog</Link>
-				</li>
-				<li>
-					<Link href="/gallery">Gallery</Link>
-				</li>
+				<NavLink linkName={"Packages"} link={"/packages"} />
+
+				<NavLink linkName={"About"} link={"/about"} />
+
+				<NavLink linkName={"Blog"} link={"/blog"} />
+
+				<NavLink linkName={"Gallery"} link="/gallery" />
+
+				<NavLink linkName={"Packages"} link={"/packages"} />
 			</ul>
 		</nav>
 	);

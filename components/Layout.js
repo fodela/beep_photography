@@ -1,14 +1,11 @@
-import Nav from "../components/Nav";
+import Header from "../components/Header";
 const Layout = ({ children }) => {
 	return (
-		<>
-			<Nav />
-			<div>
-				{/* header */}
-				<main>{children}</main>
-				{/* footer */}
-			</div>
-		</>
+		<div>
+			<Header />
+			<main>{children}</main>
+			{/* footer */}
+		</div>
 	);
 };
 export default Layout;
