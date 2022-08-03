@@ -1,8 +1,8 @@
 const Hero = () => {
 	return (
-		<section className="bg-blue-300 px-20 py-40">
+		<section className="bg-orange-100 px-20 py-40">
 			<div
-				className="hero bg-red-500
+				className="hero
 			 max-w-[75rem]  px-12 mx-auto
 			 grid grid-cols-2 gap-40 items-center"
 			>
@@ -17,10 +17,7 @@ const Hero = () => {
 				</div>
 				<div className="hero-image-box">
 					<picture className="w-full ">
-						<img
-							src="https://images.unsplash.com/photo-1551963474-cc9e699de3b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-							alt=""
-						/>
+						<img src="hero/hero.png" alt="" />
 					</picture>
 				</div>
 			</div>

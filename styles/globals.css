@@ -7,3 +7,7 @@
 		@apply flex items-center justify-center  m-2;
 	}
 }
+
+body {
+	@apply text-[#444];
+}
