@@ -2,12 +2,13 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layout";
+import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
 	return (
 		<div>
 			<Layout>
-				<h2>Layout Child</h2>
+				<Hero />
 			</Layout>
 		</div>
 	);
